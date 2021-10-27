@@ -1,0 +1,14 @@
+{
+    "name": "my-project",
+    "source": "src/index.html",
+    "scripts": {
+      "start": "parcel",
+      "build": "parcel build",
+      "lint": "eslint",
+      "check": "tsc --noEmit",
+      "ci": "yarn build && yarn lint && yarn check"
+    },
+    "devDependencies": {
+      "parcel": "latest"
+    }
+  }
